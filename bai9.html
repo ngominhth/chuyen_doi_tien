@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <style>
+       tr th
+    </style>
+    <meta charset="UTF-8">
+    <script src="bai9.js" type="text/javascript"></script>
+</head>
+<body>
+<form method="post" action="">
+    <table>
+        <tr>
+            <th>
+                Amount
+            </th>
+            <th>
+                From Currency
+            </th>
+            <th>
+                To Currency
+            </th>
+        </tr>
+        <tr>
+            <td><input type="text" id="tien_dola" size="10"></td>
+            <td>
+                <select id="tien_viet">
+                    <option value="23000">
+                        Việt Nam
+                    </option>
+                </select>
+            </td>
+            <td>
+                <select id="tien_candoi">
+                    <option value="usd">
+                        USD
+                    </option>
+                    <option value="tien_nhat">
+                        Yên nhật
+                    </option>
+
+                </select>
+            </td>
+            <td>
+                <button type="button" onclick="doi_tien();" id="convert">Convert</button>
+            </td>
+        </tr>
+       <tr>
+           <td>
+               <p id="hien_thi"></p>
+           </td>
+       </tr>
+
+
+    </table>
+</form>
+</body>
+</html>
